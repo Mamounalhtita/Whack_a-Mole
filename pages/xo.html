@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic tac toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game">
+
+        <div class="title"><span>X  O</span> Game</div>
+
+        <div class="square" id="item1" onclick="game(this.id)"></div>
+        <div class="square" id="item2" onclick="game(this.id)"></div>
+        <div class="square" id="item3" onclick="game(this.id)"></div>
+
+        <div class="square" id="item4" onclick="game(this.id)"></div>
+        <div class="square" id="item5" onclick="game(this.id)"></div>
+        <div class="square" id="item6" onclick="game(this.id)"></div>
+
+        <div class="square" id="item7" onclick="game(this.id)"></div>
+        <div class="square" id="item8" onclick="game(this.id)"></div>
+        <div class="square" id="item9" onclick="game(this.id)"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
+<style>
+    body{
+    background-image: url(/images/background-blur-clean-531880.jpg);
+    
+}
+.game{
+    width: 500px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(26, 66, 53);
+    margin: auto;
+    font-size: x-large;
+   
+}
+.title{
+    background-color: rgb(93, 155, 149);
+    padding: 18px 0;
+    margin: 33px 0;
+    margin-top: 64px;
+    margin-left: -49px;
+    
+}
+span{
+    width: 500px;
+    color: rgb(26, 66, 53);
+}
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(104, 136, 137);
+    float: left;
+    margin: 2px;
+    font-size: 100px;
+    color: brown;
+    border-radius: 20px;
+}
+.square:hover{
+   background-color: rgb(60, 112, 112);
+   cursor: pointer;
+}
+  
+  
+</style>
