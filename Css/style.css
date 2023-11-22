@@ -1,0 +1,87 @@
+body{
+    background-color: antiquewhite;
+    text-align: center;
+
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+    font-size: xx-large;
+}
+article{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.gameOne{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+}
+.gameTwoo{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+}
+.games{
+    
+    margin: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 2px solid black;
+    border: none;
+
+}
+.moleGame{
+    margin-top: 50px;
+    height:250px ;
+    width:250px ;
+    border-radius: 5%;
+    border: 2px solid greenyellow;
+    margin-right: 10px;
+}
+.moleGame:hover{
+    margin-top: 50px;
+    height:300px ;
+    width:300px ;
+    border-radius: 5%;
+    border: 2px solid rgb(255, 47, 47);
+    margin-right: 10px;
+}
+.xoGame{
+    height:250px ;
+    width:250px ;
+    border-radius: 5%;
+    border: 2px solid greenyellow;
+    margin-left: 10px;
+}
+.xoGame:hover{
+    margin-top: 50px;
+    height:300px ;
+    width:300px ;
+    border-radius: 5%;
+    border: 2px solid rgb(255, 47, 47);
+    margin-right: 10px;
+}
+.gamesName{
+    margin: auto;
+    
+    margin-left: 370px;
+    margin-right: 350px;
+}
+.textOne{
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: rgb(12, 12, 151);
+}
+.textTwo{
+    margin-top: -45px;
+    margin-right: 114px;
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: rgb(12, 12, 151);
+    
+}
+.x{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+}

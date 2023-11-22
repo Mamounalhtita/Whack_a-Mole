@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(31, 30, 30);
+    text-align: center;
+}
+img{
+    height:200px ;
+    width: 200px;
+}
+main{
+    text-align: center;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+   
+}
+.spelregels{
+    border: none;
+    margin-left:300px;
+    width: 850px;
+  
+   
+}
+h1{
+    color: blue;
+    margin-left: 50px;
+}
+.fun-text{
+    color: red;
+}
+
+button{
+    background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
